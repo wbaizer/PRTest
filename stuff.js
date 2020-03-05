@@ -1,4 +1,4 @@
-function a() => {
+function a() {
 
   const a = null;
   console.log(a.uhoh);
