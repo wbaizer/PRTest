@@ -33,8 +33,7 @@ $asddf = 1; $dfasdf26;
 $asddf = 1; $dfasdf27;
 $asddf = 1; $dfasdf28;
 $asddf = 1; $dfasdf29;
-$asddf = 1; $dfasdf30;
-$dfasdf28 = $dfasdf30;
+$dfasdf28 = $dfasdf29;
 
 function hello(){ $dfasdf30;
 
