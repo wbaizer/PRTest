@@ -4,7 +4,7 @@ $aiousfhd = 1; $aiousfhd = 1;
 
 $aiousfhd = 1;
 
-$asddf = 1; $dfasdf1;
+$dfasdf1;
 $asddf = 1; $dfasdf2;
 $asddf = 1; $dfasdf3;
 $asddf = 1; $dfasdf4;
