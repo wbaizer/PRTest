@@ -2,7 +2,7 @@
 
 $aiousfhd = 1; $aiousfhd = 1;
 
-$aiousfhd = 1;
+$hello = 1;
 
 $asddf = 1; $dfasdf2;
 $asddf = 1; $dfasdf3;
