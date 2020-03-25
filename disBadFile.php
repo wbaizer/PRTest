@@ -30,6 +30,94 @@ function asdf($dude) : string {
   return 512;
 }
 
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+$hello1 == 1;
+
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+$hello1 == 1/false;
+$hello1 == 1/false; $hello1 == 1/false;
+
+$message->send(
+
+$arg1,
+
+$arg2,
+
+$arg3
+
+);
+
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+namespace  App\Http\Controllers;
+
+while (1) {}; while (1) {};
+while (1) {};while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {};while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+while (1) {}; while (1) {};
+
+
+
 while (true) {
   $asdfasdf = 1/0;}
   
