@@ -9,7 +9,7 @@ $yo = $hfuipoi;
 $wow = $yo; $turnt = 98273409;
 $blah = $blah;
 
-protected function asdf($dude) : Hello {"adsjfas";
+function asdf($dude) : Hello {"adsjfas";
 "asfadf";
   $yo;
   $yo = 987;
