@@ -9,8 +9,8 @@ $yo = $hfuipoi;
 $wow = $yo; $turnt = 98273409;
 $blah = $blah;
 
-function asdf($dude) : Hello {"adsjfas";
-"asfadf";
+function asdf($dude) : string {
+  "asfadf";
   $yo = 987; $yo;
   $stuff = $stuff ; $$stuff = $stuff ;
   $stuff = $stuff ; $$stuff = $stuff ;
@@ -27,7 +27,7 @@ function asdf($dude) : Hello {"adsjfas";
   $stuff = $stuff ; $$stuff = $stuff ;
   $stuff = $stuff ; $$stuff = $stuff ;
   $stuff = $stuff ; $$stuff = $stuff ;
-  return $512 = 'asdf';
+  return 512;
 }
 
 while (true) {
