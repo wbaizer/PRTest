@@ -12,6 +12,18 @@ function sig_handler($signo)
 	$run = false;
 }
 
+while ($run)
+{
+	$line = fgets(STDIN);
+
+	# trim new line
+	$line = str_replace(array("\r", "\n"), '', $line);
+    if (false == $producer->produce($line, strlen($line), $argv[4])) {
+        print "Failed to produce\n";
+        //Retry to produce
+    }
+}
+
 if (count($argv) > 4)
 {
 	$cluster = $argv[1];
@@ -32,18 +44,6 @@ if ($ret == false)
 {
 	print "Failed init";
 	exit(1);
-}
-
-while ($run)
-{
-	$line = fgets(STDIN);
-
-	# trim new line
-	$line = str_replace(array("\r", "\n"), '', $line);
-    if (false == $producer->produce($line, strlen($line), $argv[4])) {
-        print "Failed to produce\n";
-        //Retry to produce
-    }
 }
 
 $producer->uninit();
