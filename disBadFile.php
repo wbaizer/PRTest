@@ -29,7 +29,7 @@ function asdf($dude) : string {
   $stuff = $stuff ; $$stuff = $stuff ;
   return 512;
 }
-
+echo 'hello';
 $hello1 == 1;
 $hello1 == 1;
 $hello1 == 1;
@@ -48,7 +48,7 @@ $hello1 == 1;
 $hello1 == 1;
 $hello1 == 1;
 $hello1 == 1;
-
+echo 'hello';
 $hello1 == 1/false;
 $hello1 == 1/false; $hello1 == 1/false;
 $hello1 == 1/false;
@@ -70,9 +70,11 @@ $hello1 == 1/false; $hello1 == 1/false;
 $hello1 == 1/false;
 $hello1 == 1/false; $hello1 == 1/false;
 $hello1 == 1/false;
+echo 'hello';
 $hello1 == 1/false; $hello1 == 1/false;
 $hello1 == 1/false;
 $hello1 == 1/false; $hello1 == 1/false;
+echo 'hello';
 
 $message->send(
 
@@ -84,6 +86,7 @@ $arg3
 
 );
 
+echo 'hello';
 namespace  App\Http\Controllers;
 namespace  App\Http\Controllers;
 namespace  App\Http\Controllers;
