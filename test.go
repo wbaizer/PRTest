@@ -86,8 +86,7 @@ func QuerySearch(ctx context.Context, repoDir, sha, query string, opt Options) (
 		unfilteredFiles, err = opt.Git.ListChangedFiles(ctx, repoDir, sha, opt.BaseSha)
 	}
 
-	if err != nil
-{
+	if err != nil {
 		return nil, 0, err
 	}
 
@@ -146,9 +145,7 @@ func QuerySearch(ctx context.Context, repoDir, sha, query string, opt Options) (
 	}
 
 	// Search through contents for matches
-	if opt.SearchContent && numMatches < opt.Limit
-  
-  {
+	if opt.SearchContent && numMatches < opt.Limit {
 		parser := newGrepParser(opt.Limit - numMatches)
 		lineResults, numMatchLines, err := opt.GrepFiles(ctx, repoDir, filteredFiles, query, opt.CaseSensitive, opt.Regex, opt.ContextLines, parser)
 		if err != nil {
@@ -158,6 +155,5 @@ func QuerySearch(ctx context.Context, repoDir, sha, query string, opt Options) (
 		numMatches = numMatches + numMatchLines
 	}
 
-	 return results, numMatches, nil
-  
+	  return results, numMatches, nil
 }
